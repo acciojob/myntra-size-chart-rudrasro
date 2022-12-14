@@ -1,2 +1,39 @@
 
 /* Your CSS Code here. */
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    align-content: center;
+    padding: 10px;
+    margin: 10px;
+}
+table{
+    width: 80%;
+}
+tr{
+    height: 40px;
+    width: 30%;
+    font-weight: 700;
+}
+.heading{
+    text-align: left;
+    background-color: rgb(167, 49, 49);
+    color: #ffffff;
+}
+.main-parts{
+    align-items: left;
+}
+.cols-body{
+    text-align: right;
+}
+#tab-body1{
+    background-color: rgba(182, 62, 62, 0.884);
+    color: #ffffff;
+}
+#tab-body2{
+    background-color: rgba(209, 158, 158, 0.616);
+    color: #000000;
+}
+#tab-body3{
+    background-color: rgba(49, 109, 119, 0.384);
+}
